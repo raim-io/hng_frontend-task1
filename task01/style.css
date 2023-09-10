@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+}
+
+#app {
+  position: relative;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 30px 30px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding-top: 95px;
+}
+
+p {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 86px;
+  padding: 30px 20px 0px;
+  margin-bottom: 0px;
+}
+
+img {
+  border: none;
+  border-radius: full;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.track-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.track {
+  font-size: 32px;
+}
+
+.hng-img {
+  height: 66px;
+  width: 312px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background: #ffc0cb;
+  padding: 50px 80px 50px 80px;
+  
+}
+
+span {
+  font-size: 12px;
+  font-weight: light;
+  color: rgb(78, 76, 76);
+  padding-bottom: 30px;
+}
+
+.divider1 {
+  width: 2px;
+  height: 60px;
+  background: skyblue;
+  border-radius: 10%;
+  margin-top: -20px;
+}
+
+.divider2 {
+  width: 2px;
+  height: 60px;
+  background: skyblue;
+  border-radius: 10%;
+  padding-top: 70px;
+  margin-top: -10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

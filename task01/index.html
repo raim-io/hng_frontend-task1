@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HNG frontend (task1)</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div id="app">
+      <nav class="navbar">
+        <a>
+          <img class="hng-img" src="hng.png" alt="hng" />
+        </a>
+        <a>
+          <p>more</p>
+        </a>
+      </nav>
+
+      <div class="hero">
+        <!-- slack display picture-->
+        <div class="img-div">
+          <img src="slack-dp.jpg" alt="raim.io" data-testid="slackDisplayImage"/>
+        </div>
+
+        <div class="desc">
+          <!-- slack username -->
+          <div class="header-div">
+            <h1 class="header" data-testid="slackUserName">
+              raim.io
+            </h1>
+            <span>(slack name)</span>
+          </div>
+
+          <!-- track -->
+          <div class="track-div">
+            <p class="track" data-testid="myTrack">
+              Frontend
+            </p>
+            <span>(track)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+        <!-- current day of the week -->
+        <div class="info">
+          <span>current day of the week</span>
+          <!-- divider 1 -->
+          <div class="divider1"></div>
+          <p id="current-day" data-testid="currentDayOfTheWeek"></p>
+        </div>
+
+        <!-- divider 2 -->
+        <div class="divider2"></div>
+
+        <!-- current UTC time -->
+        <div class="info">
+          <span>current UTC time</span>
+          <!-- divider 1 -->
+          <div class="divider1"></div>
+          <p id="current-time" data-testid="currentUTCTime"></p>
+        </div>
+        
+        <!-- divider 2 -->
+        <div class="divider2"></div>
+
+        <!-- GitHub URL -->
+        <div class="info">
+          <span>GitHub URL</span>
+          <!-- divider 1 -->
+          <div class="divider1"></div>
+          <p>
+            <a 
+            href="https://github.com/raim-io/hng_frontend_task1"
+              data-testid="githubURL"
+            >
+              GitHub URL </a>
+            </p>
+          </div>
+      </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
