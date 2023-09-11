@@ -6,16 +6,6 @@ import './style.css'
 //  </p>
 //`
 
-//
-//
-
-//const date = new Date();
-//const dayOfWeek = date.toLocaleDateString('en-US', { weekday: 'long' }); 
-//const utcTime = date.toISOString().slice(0, -5) + 'Z';
-
-//currentDay.textContent = dayOfWeek;
-//currentTime.textContent = utcTime;
-
 document.addEventListener("DOMContentLoaded", function () {
 	const currentDay = document.querySelector('[data-testid="currentDayOfTheWeek"]');
   const currentTime = document.querySelector('[data-testid="currentUTCTime"]');
@@ -23,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	currentDay.textContent = getCurrentDate();
 	currentTime.textContent;
 
-    // Update current time every second
+    // Update current time in real-time
     setInterval(function () {
         getCurrentTime(currentTime);
     }, 1000);
