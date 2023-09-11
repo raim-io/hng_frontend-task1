@@ -10,18 +10,18 @@
   <body>
     <div id="app">
       <nav class="navbar">
-        <a>
+        <a href="https://www.zuri.team/programs/hng/x/home" class="hng-url">
           <img class="hng-img" src="hng.png" alt="hng" />
         </a>
         <a>
-          <p>more</p>
+          <img class="menu" src="list.png" alt="menu" />
         </a>
       </nav>
 
       <div class="hero">
         <!-- slack display picture-->
         <div class="img-div">
-          <img src="slack-dp.jpg" alt="raim.io" data-testid="slackDisplayImage"/>
+          <img class="dp" src="slack-dp.jpg" alt="raim.io" data-testid="slackDisplayImage" />
         </div>
 
         <div class="desc">
@@ -30,7 +30,7 @@
             <h1 class="header" data-testid="slackUserName">
               raim.io
             </h1>
-            <span>(slack name)</span>
+            <span class="slack-name">(slack name)</span>
           </div>
 
           <!-- track -->
@@ -47,37 +47,30 @@
     <div class="footer">
         <!-- current day of the week -->
         <div class="info">
-          <span>current day of the week</span>
-          <!-- divider 1 -->
-          <div class="divider1"></div>
+          <span class="info-0">current day of the week</span>
+          <!-- divider -->
+          <div class="divider"></div>
           <p id="current-day" data-testid="currentDayOfTheWeek"></p>
         </div>
 
-        <!-- divider 2 -->
-        <div class="divider2"></div>
-
         <!-- current UTC time -->
         <div class="info">
-          <span>current UTC time</span>
-          <!-- divider 1 -->
-          <div class="divider1"></div>
+          <span class="info-0">current UTC time</span>
+          <!-- divider -->
+          <div class="divider"></div>
           <p id="current-time" data-testid="currentUTCTime"></p>
         </div>
-        
-        <!-- divider 2 -->
-        <div class="divider2"></div>
 
         <!-- GitHub URL -->
         <div class="info">
-          <span>GitHub URL</span>
-          <!-- divider 1 -->
-          <div class="divider1"></div>
+          <span class="info-0">GitHub URL</span>
+          <!-- divider -->
+          <div class="divider"></div>
           <p>
             <a 
             href="https://github.com/raim-io/hng_frontend_task1"
               data-testid="githubURL"
-            >
-              GitHub URL </a>
+            >https://github.com/raim-io/hng_frontend-task1</a>
             </p>
           </div>
       </div>
